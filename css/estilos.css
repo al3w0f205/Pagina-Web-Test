@@ -1,0 +1,83 @@
+/* Archivo: css/estilos.css */
+
+/* Reset básico para eliminar márgenes por defecto del navegador */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el Encabezado */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 4px solid #3498db;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Estilos para la Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+/* Estilos para el Contenido Principal */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden; /* Para contener elementos internos */
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+/* Estilos para el Pie de Página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
